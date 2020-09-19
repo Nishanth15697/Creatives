@@ -1,0 +1,123 @@
+/***********************TAG selectors*********************/
+body{
+  background-color: #7ee8fa;
+background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+
+}
+
+hr{
+  width: 100px;
+  position: absolute;
+  top: 170px;
+  left: 230px;
+
+}
+/***********************CLASS selectors*****************/
+
+.pic{
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  width: 500px;
+  height: 600px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.login{
+  position: absolute;
+  top:100px;
+  left: 700px;
+  width: 500px;
+  height: 600px;
+  background-color: #01A89E;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.loginform{
+  position: absolute;
+  top: 100px;
+  left: 110px;
+}
+
+.loginform input[type="text"], input[type="password"] {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid red;
+  background-color: #a2d5f2;
+}
+
+.loginform input[type="password"]{
+    position: absolute;
+    left: 220px;
+}
+
+.signupform{
+  position: absolute;
+  top: 210px;
+  left: 150px;
+}
+
+.loginword{
+  position: absolute;
+  left: 250px;
+}
+
+.logo{
+  position: absolute;
+  left: -110px;
+  top: -75px;
+  width: 150px;
+  height: 150px;
+}
+
+.loginback{
+  background-color: #80FF72;
+  position: absolute;
+  width: 400px;
+  height: 150px;
+  left: 50px;
+  top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}
+
+.picture h2{
+  position: absolute;
+  left: 300px;
+  top: 200px;
+}
+
+.quoteback{
+  background-color: #01A89E;
+  position: absolute;
+  left: 150px;
+  top: 50px;
+  width: 400px;
+  height: 150px;
+}
+/************************ID selectors*******************/
+
+#loginbutton{
+  position: absolute;
+  left: 3px;
+  top: 28px;
+}
+
+#forgotpass{
+  position: absolute;
+  left: 220px;
+  top: 30px;
+  width: 150px;
+}
+
+#quote{
+  position: absolute;
+  width: 400px;
+  left: 180px;
+  text-align: justify;
+  top: 130px;
+  font-family: 'Josefin Sans', sans-serif;
+}

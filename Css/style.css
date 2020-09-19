@@ -1,0 +1,358 @@
+/********************Tag Selectors********************/
+
+body{
+  margin: 0;
+  background-image: url("bodyback.jpg");
+  background-size: cover
+}
+
+/**************class selectors**************/
+
+.Logo{
+  width: 150px;
+  height: 150px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+
+.main{
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 1305px;
+  height: 170px;
+  border-radius: 10px;
+  opacity: 0.9;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+}
+
+.LoginForm{
+  display: inline-block;
+}
+
+.LoginForm input[type="password"] {
+  position: absolute;
+  left: 205px;
+  padding: 8px;
+  top: 50px;
+  border-radius: 5px;
+}
+
+.LoginForm input[type="text"] {
+  position: absolute;
+  padding: 8px;
+  left: 5px;
+  top: 50px;
+  border-radius: 5px;
+}
+
+.LoginBox{
+  position: absolute;
+  top: 10px;
+  right: 70px;
+  height: 150px;
+  width: 400px;
+  background-color: #f5d020;
+  background-image: linear-gradient(315deg, #f5d020 0%, #7fdbda 74%);
+  opacity: 0.98;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+}
+
+
+.LoginBox h1{
+  position: absolute;
+  left: 150px;
+  top: 2px;
+  margin: 0;
+}
+
+.CodingKids{
+  position: absolute;
+  top: 400px;
+  width: 750px;
+  border-radius: 3px;
+  left: 20px;
+  opacity: 0.8;
+}
+
+.signupform{
+  position: absolute;
+  left: 50px;
+  top: 100px;
+}
+
+.firstname{
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.lastname{
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.numberdropdown{
+  position: absolute;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 5px;
+  left: 48px;
+  top: 55px;
+}
+
+.number{
+  position: absolute;
+  left: 150px;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+.emailid{
+  position: absolute;
+  top: 100px;
+  left: 36px;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 15px;
+  width: 300px;
+}
+
+.dropdown{
+  position: absolute;
+  top: 160px;
+  left: 36px;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 15px;
+  width: 320px;
+}
+
+.signupform input[type="submit"]{
+  position: absolute;
+  width: 300px;
+  left: 50px;
+  top: 250px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.signupform hr{
+  position: absolute;
+  top: 310px;
+  left: 0px;
+  width: 400px;;
+  color: white;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+}
+
+.insta{
+  position: absolute;
+  left: 20px;
+  top: 400px;
+  width: 70px;
+  height: 70px;
+}
+
+.fb{
+  position: absolute;
+  left: 150px;
+  top: 400px;
+  width: 70px;
+  height: 70px;
+}
+
+.google{
+  position: absolute;
+  left: 280px;
+  top: 400px;
+  width: 70px;
+  height: 70px;
+}
+
+.h31 {
+  position: absolute;
+  left: 340px;
+  top: 30px;
+  color: white;
+}
+
+.h32 {
+  position: absolute;
+  left: 390px;
+  top: 60px;
+  color: white;
+}
+
+.h33 {
+  position: absolute;
+  left: 450px;
+  top: 90px;
+  color: white;
+}
+
+.signup{
+  position: absolute;
+  width: 500px;
+  height: 600px;
+  background-color: #f5d020;
+  background-image: linear-gradient(315deg, #f5d020 0%, #7fdbda 74%);
+  opacity: 0.9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+  left: 800px;
+  top: 200px;
+}
+
+.signup h1{
+  position: absolute;
+  left: 130px;
+  top: 10px;
+}
+
+.codink{
+  position: absolute;
+  left: 20px;
+  top: 200px;
+  width: 750px;
+  height: 600px;
+  border-radius: 10px;
+  background-color: black;
+  opacity: 0.75;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+}
+
+.codink h1{
+  position: absolute;
+  left: 490px;
+  top: 120px;
+  font-family: Brush Script MT, sans-serif;
+  color: #f5d020;
+}
+
+.codink h3{
+  position: absolute;
+  left: 150px;
+  top: 40px;
+  width: 550px;
+  text-align: justify;
+  font-family: Papyrus, sans-serif;
+  color: #7fdbda;
+}
+
+.SH{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  left: 15px;
+  top: 30px;
+}
+
+.bottom{
+  position: absolute;
+  top: 840px;
+  left: 100px;
+  width: 1150px;;
+  color: white;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+
+}
+
+.contact{
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  left: 100px;
+  top: 880px;
+  background: black;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+  border-radius: 10px;
+}
+
+.contact h1{
+  margin: 0;
+  position: absolute;
+  top: 5px;
+  color: white;
+
+}
+
+.contact hr{
+  position: absolute;
+  height: 5px;
+  top: 50px;
+  left: 30px;
+  width: 280px;
+  color: white;
+  box-shadow: 0 4px 10px 0 rgba(245,233,245,0.75), 0 10px 20px 0 rgba(245,233,245,0.75);
+}
+
+.email{
+  position: absolute;
+  top: 100px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.phone{
+  position: absolute;
+  top: 220px;
+  left: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.emailadd{
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+
+.phoneno{
+  position: absolute;
+  top: 220px;
+  left: 80px;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+/***********************ID selectors******************/
+
+#pass{
+  padding-left: 70px;
+}
+
+#loginbutton{
+  position: absolute;
+  left: 7px;
+  top: 100px;
+  padding: 8px;
+  background-color: #a2d5f2;
+  border-radius: 8px;
+}
+
+#forgotpass{
+  position: absolute;
+  left: 210px;
+  top: 100px;
+}
+
+#or{
+  position: absolute;
+  top: 315px;
+  left: 180px;
+}
+
+#login{
+  position: absolute;
+  top: 340px;
+  left: 150px;
+}
